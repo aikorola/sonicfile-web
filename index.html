@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sonic File Cleaner - Keep Your Phone Lightning Fast</title>
-    <meta name="description" content="Sonic File Cleaner helps you scan and clean photos, videos, manage notifications, uninstall unused apps, and boost memory for a seamlessly smooth mobile experience.">
+    <title>SonicFile - Keep Your Phone Lightning Fast</title>
+    <meta name="description"
+        content="SonicFile helps you scan and clean photos, videos, manage notifications, uninstall unused apps, and boost memory for a seamlessly smooth mobile experience.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
@@ -30,7 +32,7 @@
             color: var(--text-main);
             overflow-x: hidden;
             line-height: 1.6;
-            background-image: 
+            background-image:
                 radial-gradient(circle at 15% 50%, rgba(74, 144, 226, 0.15), transparent 40%),
                 radial-gradient(circle at 85% 30%, rgba(0, 137, 255, 0.1), transparent 40%);
         }
@@ -133,8 +135,11 @@
         .cta-primary::before {
             content: '';
             position: absolute;
-            top: 0; left: -100%; width: 100%; height: 100%;
-            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
             transition: 0.5s;
         }
 
@@ -184,7 +189,7 @@
             transform: translateY(-10px);
             border-color: rgba(74, 144, 226, 0.3);
             background: rgba(255, 255, 255, 0.05);
-            box-shadow: 0 20px 40px rgba(0,0,0,0.3), inset 0 0 0 1px rgba(255,255,255,0.1);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3), inset 0 0 0 1px rgba(255, 255, 255, 0.1);
         }
 
         .icon-wrapper {
@@ -245,13 +250,25 @@
 
         /* Animations */
         @keyframes fadeUp {
-            from { opacity: 0; transform: translateY(30px); }
-            to { opacity: 1; transform: translateY(0); }
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
         }
 
         @keyframes float {
-            0% { transform: translateY(0) scale(1); }
-            100% { transform: translateY(50px) scale(1.05); }
+            0% {
+                transform: translateY(0) scale(1);
+            }
+
+            100% {
+                transform: translateY(50px) scale(1.05);
+            }
         }
 
         footer {
@@ -264,25 +281,38 @@
         }
 
         @media (max-width: 768px) {
-            .cta-group { flex-direction: column; width: 100%; max-width: 300px; }
-            .cta-primary { width: 100%; text-align: center; }
-            .hero h1 { font-size: 3rem; }
+            .cta-group {
+                flex-direction: column;
+                width: 100%;
+                max-width: 300px;
+            }
+
+            .cta-primary {
+                width: 100%;
+                text-align: center;
+            }
+
+            .hero h1 {
+                font-size: 3rem;
+            }
         }
     </style>
 </head>
+
 <body>
 
     <div class="blur-orb orb-1"></div>
     <div class="blur-orb orb-2"></div>
 
     <header>
-        <div class="logo">Sonic File.</div>
+        <div class="logo">SonicFile</div>
         <a href="#features" class="nav-btn">Explore</a>
     </header>
 
     <section class="hero">
         <h1>Revitalize Your Android Device</h1>
-        <p>Sonic File Cleaner helps you reclaim storage, banish annoying notifications, and boost memory for a perfectly smooth experience.</p>
+        <p>SonicFile helps you reclaim storage, banish annoying notifications, and boost memory for a perfectly smooth
+            experience.</p>
         <div class="cta-group">
             <button class="cta-primary">Download Free</button>
         </div>
@@ -294,28 +324,32 @@
             <div class="card">
                 <div class="icon-wrapper">🖼️</div>
                 <h3>Media Cleaner</h3>
-                <p>Intelligently scan and clean up similar photos, unneeded screenshots, and large video files taking up your phone's storage.</p>
+                <p>Intelligently scan and clean up similar photos, unneeded screenshots, and large video files taking up
+                    your phone's storage.</p>
             </div>
             <div class="card">
                 <div class="icon-wrapper">🚀</div>
                 <h3>Memory Booster</h3>
-                <p>Clean memory to make your phone run smoother. Kill background processes instantly and check real-time RAM status.</p>
+                <p>Clean memory to make your phone run smoother. Kill background processes instantly and check real-time
+                    RAM status.</p>
             </div>
             <div class="card">
                 <div class="icon-wrapper">📦</div>
                 <h3>App Manager</h3>
-                <p>Easily identify and uninstall unused or large applications. Free up massive amounts of space with a single tap.</p>
+                <p>Easily identify and uninstall unused or large applications. Free up massive amounts of space with a
+                    single tap.</p>
             </div>
             <div class="card">
                 <div class="icon-wrapper">🔔</div>
                 <h3>Notification Manager</h3>
-                <p>Take back control of your status bar. Stop disturbances and organize annoying notifications seamlessly.</p>
+                <p>Take back control of your status bar. Stop disturbances and organize annoying notifications
+                    seamlessly.</p>
             </div>
         </div>
     </section>
 
     <footer>
-        <p>&copy; 2026 Sonic File Cleaner. Keep Your Phone Lightning Fast.</p>
+        <p>&copy; 2026 SonicFile. Keep Your Phone Lightning Fast.</p>
     </footer>
 
     <script>
@@ -330,4 +364,5 @@
         });
     </script>
 </body>
+
 </html>
